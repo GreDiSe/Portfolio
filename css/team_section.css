@@ -1,0 +1,75 @@
+.team_section{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.team_header_img{
+    padding-top: 20px;
+    max-width: 100%;
+}
+.team_main_div{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.team_main_div > div{
+    padding-left: 20px;
+}
+.team_managers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.team_managers > img{
+    padding-top: 20px;
+    width: 90%;
+}
+.team_links{
+    margin-bottom: 20px;
+}
+.team_links > a{
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+}
+.team_links > a:hover{
+    color: lightseagreen;
+}
+.team_links .prod_checked{
+    color: lightseagreen;
+}
+.team_meet_out_team{
+    width: 50%;
+}
+.team_meet_out_team > h2{
+    font-size: 40px;
+}
+@media screen and (max-width: 800px) {
+    .team_meet_out_team > h2{
+        font-size: 35px;
+    }
+    .team_section{
+        padding-bottom: 30px;
+    }
+    .team_header_img{
+        display: none;
+    }
+    .team_main_div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .team_managers{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .team_meet_out_team{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .team_managers{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 360px){
+    .team_links > a{
+        font-size: 14px;
+    }
+}

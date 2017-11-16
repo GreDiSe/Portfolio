@@ -1,0 +1,12 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    padding: 20px 14%;
+}
+@media screen and (max-width: 800px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

@@ -1,0 +1,71 @@
+.header_section{
+    background-color: #f6f2f1;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+}
+.girlInCafe{
+    padding: 50px 50px 20px 20px;
+    width: 100%;
+}
+.header_text > h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.header_text > p{
+    padding-right: 50px;
+}
+.btn-ContactUs{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    background-color: #ff3f40;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: #f6f2f1;
+}
+.btn-ContactUs:hover{
+    cursor: pointer;
+    background-color: #ff0f10;
+}
+@media screen and (max-width: 800px){
+    .header_text > h1{
+        font-size: 40px;
+    }
+    .header_section{
+        grid-template-columns: 1fr 1fr;
+        padding-top: 110px;
+    }
+    .header_section > div{
+        width: 100%;
+    }
+    .girlInCafe{
+        width: 100%;
+        padding: 50px 0 20px 0 ;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 425px){
+    .header_section{
+        padding-top: 150px;
+        grid-template-columns: 1fr;
+    }
+    .header_section > div > h1{
+        font-size: 40px;
+    }
+    .girlInCafe{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 360px){
+    .header_section{
+        padding-top: 150px;
+    }
+    .header_section > div > h1{
+        font-size: 35px;
+    }
+}
