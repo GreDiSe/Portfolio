@@ -53,10 +53,16 @@ li > a:after{
     right: 0;
 }
 
-li > a:hover:before,
-li > a:hover:after{
-    width: 100%;
+li > a:hover
+{
+    border-bottom: 3px solid #ff3f40;
+    border-top: 3px solid #ff3f40;
 }
+
+/*li > a:hover:before,*/
+/*li > a:hover:after{*/
+    /*width: 100%;*/
+/*}*/
 .checked{
     border-bottom: 3px solid #ff3f40;
     border-top: 3px solid #ff3f40;

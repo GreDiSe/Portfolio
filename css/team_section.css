@@ -14,6 +14,18 @@
 .team_main_div > div{
     padding-left: 20px;
 }
+
+.team_main_div > span {
+    position: relative;
+}
+
+.team_main_div > span > img {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
 .team_managers{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -57,6 +69,11 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .team_main_div > div {
+         padding-left: 0;
+    }
+
     .team_managers{
         grid-template-columns: repeat(4, 1fr);
     }

@@ -5,6 +5,15 @@
     grid-template-columns: 1fr 1fr;
     padding-bottom: 30px;
 }
+
+#HOME {
+    background-image: url(../img/Woman%20in%20cafe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    min-height: 600px;
+}
 .girlInCafe{
     padding: 50px 50px 20px 20px;
     width: 100%;
@@ -12,9 +21,12 @@
 .header_text > h1{
     font-size: 48px;
     margin-bottom: 5px;
+    color: #fff;
 }
 .header_text > p{
     padding-right: 50px;
+    line-height: 30px;
+    color: #fff;
 }
 .btn-ContactUs{
     margin-top: 10px;
