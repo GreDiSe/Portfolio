@@ -38,7 +38,7 @@
     }
     .header_section{
         grid-template-columns: 1fr 1fr;
-        padding-top: 110px;
+        padding-top: 60px;
     }
     .header_section > div{
         width: 100%;
@@ -51,7 +51,6 @@
 }
 @media screen and (max-width: 425px){
     .header_section{
-        padding-top: 150px;
         grid-template-columns: 1fr;
     }
     .header_section > div > h1{
@@ -62,10 +61,11 @@
     }
 }
 @media screen and (max-width: 360px){
-    .header_section{
-        padding-top: 150px;
-    }
     .header_section > div > h1{
         font-size: 35px;
     }
+}
+.btn-ContactUs .grow-rotate{
+    transform: none;
+    -webkit-transform: none;
 }

@@ -12,11 +12,16 @@
     <link rel="stylesheet" href="css/section_email.css">
     <link rel="stylesheet" href="css/section_contact.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/plagins/hover-min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
+    <div class="menu-trigger">
+        <a class="menu" href="#">Menu</a>
+        <a class="fa fa-bars fa-2x menu_link" aria-hidden="true"></a>
+    </div>
     <ul>
         <li><a class="checked" href="#HOME">HOME</a></li>
         <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
@@ -28,7 +33,7 @@
     <div class="header_text">
         <h1>OUR STRONG ORGANIZATION</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur autem dignissimos dolorum, fugiat labore laborum maxime odio soluta. Autem commodi consequuntur eos esse hic, quidem tempora veniam voluptas voluptates.</p>
-        <button class="btn-ContactUs">Contact us</button>
+        <button class="btn-ContactUs grow">Contact us</button>
     </div>
     <img class="girlInCafe" src="img/Woman%20in%20cafe.jpg">
 </section>
@@ -36,7 +41,7 @@
     <div class="header_of_provide">
         <h2>DO YOU KNOW WE CAN PROVIDE FOR YOU?</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae cum deleniti dignissimos, eaque eveniet exercitationem, fugit illo in nam nostrum perferendis porro quam, quas qui repellendus sit voluptate voluptatum!</p>
-        <button class="btn-learn_more">Learn more</button>
+        <button class="btn-learn_more grow">Learn more</button>
     </div>
     <div class="services">
         <div>
@@ -61,6 +66,7 @@
         </div>
     </div>
 </section>
+
 <hr width="75%">
 <section id="PORTFOLIO" class="container section_future_product">
     <div class="header_section_future_product">
@@ -69,11 +75,11 @@
         <hr color="#ff3f40" width="150px">
     </div>
     <div class="section_future_product_links">
-        <a class="prod_checked" href="#">ALL</a>
-        <a href="#">PRINT TEMPLATE</a>
-        <a href="#">WEB TEMPLATE</a>
-        <a href="#">USER INTERFACE</a>
-        <a href="#">MOCK-UP</a>
+        <a class="prod_checked grow">ALL</a>
+        <a class="grow">PRINT TEMPLATE</a>
+        <a class="grow">WEB TEMPLATE</a>
+        <a class="grow">USER INTERFACE</a>
+        <a class="grow">MOCK-UP</a>
     </div>
     <div class="section_future_product_photos">
         <div>
@@ -104,10 +110,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi, delectus eius error, explicabo facilis iste minus modi molestiae mollitia natus nesciunt!</p>
             </div>
             <div class="team_links">
-                <a class="prod_checked" href="#">Facebook</a>
-                <a href="#">Dribble</a>
-                <a href="#">Behance</a>
-                <a href="#">Twitter</a>
+                <a class="prod_checked grow">Facebook</a>
+                <a class="grow">Dribble</a>
+                <a class="grow">Behance</a>
+                <a class="grow">Twitter</a>
             </div>
             <div class="team_managers">
                 <img src="img/team/manager/1.jpg">
@@ -124,7 +130,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <form onsubmit="return false" class="section_email_form">
             <input type="email" placeholder="Email Address">
-            <input type="submit" value="SUBSCRIBE">
+            <input class="hover-shadow" type="submit" value="SUBSCRIBE">
         </form>
     </div>
 </section>
@@ -139,7 +145,7 @@
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Your email">
             <textarea placeholder="Type your message"></textarea>
-            <input type="submit" value="SEND MESSAGE">
+            <input class="grow" type="submit" value="SEND MESSAGE">
         </form>
         <div class="section_contact_contacts">
             <h4>CONTACT INFO</h4>
@@ -152,13 +158,13 @@
 <footer class="container">
     <div>&copy; Copyright @Junaed 2016, All right reserved.</div>
     <div>
-        <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook-square fa-2x grow" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus fa-2x grow" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin-square fa-2x grow" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter-square fa-2x grow" aria-hidden="true"></i></a>
     </div>
 </footer>
-<script src="scripts/jquery-3.2.1.min.js"></script>
+<script src="scripts/jquery-3.2.1.min.js"></script>=
 <script src="scripts/header.js"></script>
 </body>
 </html>
